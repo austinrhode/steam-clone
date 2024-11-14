@@ -20,21 +20,21 @@ const CollectionPreview = ({selected}) => {
       setData(resultJson)
       console.log("GRABBING FROM LOCAL STORAGE")
     }else{
-      setData([
+      updateData([
         {
-        'cid': 1,
+        'cid': 0,
         'name': 'Strategy Games',
         'numGames': 2,
         'totalTimePlayed': "100:00"
         },
         {
-        'cid': 2,
+        'cid': 1,
         'name': 'RPGs',
         'numGames': 2,
         'totalTimePlayed': "87:00"
         },
         {
-        'cid': 3,
+        'cid': 2,
         'name': 'Other',
         'numGames': 4,
         'totalTimePlayed': "44:04"
@@ -117,6 +117,7 @@ const CollectionPreview = ({selected}) => {
             </form>
           </div>
         {data.length === 0 ? noColletions(): hasCollections()}
+        <button className='btn-primary' id='reset' onClick={() =>{ localStorage.clear(); window.location.reload()}}>Reset</button>
     </div>
   );
 }

@@ -37,7 +37,7 @@ const Search = () => {
 
       setGames([
         {
-          vid: 1,
+          vid: 0,
           banner: 'image.png',
           esrb_rating: 'E',
           description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam dolore animi quo expedita, dolorum, sit laboriosam alias modi rerum temporibus repellat optio ut cum itaque, repudiandae tempora quis labore nobis!",
@@ -45,7 +45,7 @@ const Search = () => {
           price: 60
         },
         {
-          vid: 2,
+          vid: 1,
           banner: 'image2.png',
           esrb_rating: 'T',
           description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam dolore animi quo expedita, dolorum, sit laboriosam alias modi rerum temporibus repellat optio ut cum itaque, repudiandae tempora quis labore nobis!",
@@ -53,7 +53,7 @@ const Search = () => {
           price: 45
         },
         {
-          vid: 3,
+          vid: 2,
           banner: 'image3.png',
           esrb_rating: 'E 10+',
           description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam dolore animi quo expedita, dolorum, sit laboriosam alias modi rerum temporibus repellat optio ut cum itaque, repudiandae tempora quis labore nobis!",
@@ -61,7 +61,7 @@ const Search = () => {
           price: 10
         },
         {
-          vid: 4,
+          vid: 3,
           banner: 'image4.png',
           esrb_rating: 'M',
           description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam dolore animi quo expedita, dolorum, sit laboriosam alias modi rerum temporibus repellat optio ut cum itaque, repudiandae tempora quis labore nobis!",

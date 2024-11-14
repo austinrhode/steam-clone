@@ -23,7 +23,7 @@ const VideoGamePreview = ({games = [], deleteGame=(id) => {}}) => {
         return(
             <div key={game.vid} className='gameCard'>
                 <div className='game-banner'>
-                    <img src={game.banner} />
+                    <img src={window.location.origin + '/' + game.banner} />
                 </div>
                 <div className="gameCard-info">
                     <div>

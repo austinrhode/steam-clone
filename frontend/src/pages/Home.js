@@ -6,8 +6,11 @@ const Home = () => {
   const navigate = useNavigate();
 
   useEffect(() => {
-    //grab all of the users collections and display the first one if there is one, if not then do not redirect
-    navigate("/collection/0");
+    const localData = localStorage.getItem('collectionPreviewData')
+    if(localData){
+      const resultJson = JSON.parse(localData);  
+      navigate(`/collection/${resultJson[0].cid}`)
+    }
   }, [])
 
   return (
