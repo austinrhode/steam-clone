@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/steam-clone/static/css/main.6bb6dfc3.css",
+    "main.js": "/steam-clone/static/js/main.6be5443b.js",
+    "static/js/453.8ab44547.chunk.js": "/steam-clone/static/js/453.8ab44547.chunk.js",
+    "index.html": "/steam-clone/index.html",
+    "main.6bb6dfc3.css.map": "/steam-clone/static/css/main.6bb6dfc3.css.map",
+    "main.6be5443b.js.map": "/steam-clone/static/js/main.6be5443b.js.map",
+    "453.8ab44547.chunk.js.map": "/steam-clone/static/js/453.8ab44547.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6bb6dfc3.css",
+    "static/js/main.6be5443b.js"
+  ]
+}
